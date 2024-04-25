@@ -1,10 +1,11 @@
 "use strict"
 let word = "noon";
 
-if(str === "noon"){
-    return"noon";
-}else{
     
+
+let reversedWord  = word.split("").reverse().join("");
+console.log(reversedWord)
+
+if (reversedWord === word){
+    console.log("noon is reversed");
 }
-let reversedWord  = str.split('').reverse('').join('');
-console.log(reversedWord);
