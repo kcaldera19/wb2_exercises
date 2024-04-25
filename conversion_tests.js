@@ -17,8 +17,23 @@ console.log("variable b with parseFloat;"+ parseFloat(b));
 console.log("variable c with parseFloat;"+ parseFloat(c));
 console.log("variable d with parseFloat;"+ parseFloat(d));
 
-// using parseFloat for each variable and displaying the results
-console.log("varibale a with number;"+ Number(a));
-console.log("varibale b with number;"+ Number(b));
-console.log("varibale c with number;"+ Number(c));
-console.log("varibale d with number;"+ Number(d));
+// using number for each variable and displaying the results
+console.log("variable a with number;"+ Number(a));
+console.log("variable b with number;"+ Number(b));
+console.log("variable c with number;"+ Number(c));
+console.log("variable d with number;"+ Number(d));
+
+//unary + operation
+let resultA = +a;
+console.log(resultA);
+
+let resultB = +b;
+console.log(resultB);
+
+let resultC = +c;
+console.log(resultC);
+
+let resultD = +d;
+console.log(resultD)
+
+
