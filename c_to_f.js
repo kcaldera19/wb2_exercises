@@ -1,4 +1,4 @@
-let celsius = 18
+let celsius = 18;
 
 let fahrenheit = ( celsius * 9/5) + 32;
 
