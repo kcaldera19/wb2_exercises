@@ -1,5 +1,5 @@
 "use strict"
-let word = "noon";
+let word = "sun";
 
     
 
@@ -8,4 +8,6 @@ console.log(reversedWord)
 
 if (reversedWord === word){
     console.log("noon is reversed");
+}else{
+    console.log("noon is false");
 }
