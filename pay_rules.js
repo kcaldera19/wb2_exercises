@@ -1,10 +1,10 @@
 // helps give better errors related to our code
-"use scrict"
+"use srict"
 
 // create some vaiables we need for our calculation
 // this the hourly rate for the employee
-let payRate = 12.50;
-let hoursWorked = 20;
+let payRate = 25.00;
+let hoursWorked = 40;
 
 // determine how many hours are norml hours vs overtime hours
 
